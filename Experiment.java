@@ -1,25 +1,16 @@
-package project3;
+package project_3;
 
-public class Experiment {
-    private String name;
-    private int weight;
-    private int rating;
+import java.util.*;
+
+class Experiment {
+    String name;
+    int weight;
+    int rating;
 
     public Experiment(String name, int weight, int rating) {
         this.name = name;
         this.weight = weight;
         this.rating = rating;
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getWeight() {
-        return weight;
-    }
-
-    public int getRating() {
-        return rating;
-    }
 }
+
